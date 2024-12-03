@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NaravnagasContact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background: radial-gradient(#f1dfdf, #8a97e4);
+            min-height: 100vh;
+
+            margin: 0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar {
+            background: linear-gradient(to right, rgb(38, 21, 80), #001F3F);
+        }
+
+        .collapse {
+            margin-left: 200px;
+
+        }
+
+        .navbar-brand {
+
+            font-size: 25px;
+            font-weight: bold;
+            background: linear-gradient(90deg, #fd370a, #FFC300);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+        }
+
+        .redes {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .formulario {
+            margin-right: 200px;
+            margin-left: 100px;
+            color: #e4682f;
+            font-weight: bold;
+        }
+
+        .form1 {
+            display: inline;
+            justify-content: flex-start;
+
+        }
+
+        .btn2 {
+            margin-left: 200px;
+            background-color: rgb(37, 48, 82);
+            color: aliceblue;
+        }
+
+        .parte1 {
+            display: flex;
+        }
+
+        .division2 {
+            width: 3px;
+            height: 250px;
+            margin-top: 70px;
+            background: linear-gradient(to bottom, #e92a1d, #d8db29);
+            border-radius: 20px;
+        }
+
+        .serv {
+            background: linear-gradient(to right, #80b4bb, #1a2185cc, #80b4bb);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style=" margin-left: 20px">Naravnagas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Final.html"
+                                style="color: rgb(242, 245, 244);">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color: rgb(246, 252, 250); margin-left: 30px;">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Servicios.html">Instalacion domiciliaria</a></li>
+                                <li><a class="dropdown-item" href="Reparaciones.html">Reparaciones</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacto.html"
+                                style="color: aliceblue; margin-left: 30px;">Contactanos</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <img src="logo3.png" width="50px">
+            </div>
+        </nav>
+    </header>
+    <br><br>
+    <br>
+    <br>
+    <div class="serv">
+        <h4 style="text-align: center; font-weight: bold; font-size: 50px; color: #f1dfdf;">Contactanos</h4>
+    </div>
+
+
+    <br>
+    <section class="parte1">
+        <div class="derecha" style="margin-right: 30px; margin-left: 100px;">
+            <br><br>
+            <div class="redes">
+
+                <a href=""><img src="facebook.png" width="50px"></a>
+                <a href=""><img src="gorjeo.png" width="45px"></a>
+                <a href=""><img src="instagram.png" width="50px"></a>
+            </div>
+            <br><br>
+            <div style="margin-left: 40px;">
+                <h6><img src="telefono.png" width="30px"> : 519 4352802</h6>
+                <br><br>
+                <a href="https://wa.me/70347970?text=Hola ,quisiera mas informacion sobre las instalaciones de gas natural domiciliario." style="text-decoration: none; color: black;">
+                    <h6><img src="whatsapp.png" width="30px"> : 7799552-65468555 </h6>
+                </a>
+                <br><br>
+                <h6><img src="correo.png" width="30px">: lesly27vima08@gmail.com</h6>
+
+            </div>
+        </div>
+        <div class="division2"> </div>
+
+        <div class="formulario">
+            <div class="form1">
+                <br><br>
+
+                <form id="miFormulario">
+                    <label for="nombre">Nombre y apellido:</label>
+                    <input type="text" name="nombre" id="nombre" required /><br /><br />
+                    <label for="correo">Corre electronico:</label>
+                    <input type="email" name="correo" id="correo" required /><br /><br />
+                    <label for="job">Especifique el trabajo:</label>
+                    <input type="text" name="job" id="job" required /><br /><br />
+                    <label for="cel">Celular:</label>
+                    <input type="number" name="cel" id="cel" required /><br /><br />
+
+                    <fieldset class="row mb-3">
+                        <legend style="font-size: 20px;">Area de Trabajo</legend>
+                        <br><br>
+                        <div class="row mb-3">
+                            <div class="col-sm-10 offset-sm-2">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Instalacion completa
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Instalacion interna
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Instalacion externa(acometida)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                    <label class="form-check-label" for="gridCheck1">
+                                        Reparaciones
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                    <button type="submit" class="btn2 btn-primary">Enviar </button>
+
+
+                    <br><br><br>
+                </form>
+            </div>
+
+        </div>
+
+
+    </section>
+    <br><br>
+
+    <footer style="background-color: #001F3F; padding: 10px;">
+        <h4 style="color: aliceblue; text-align: center; font-size: 20px;"> <img src="logo3.png" width="20px"> Empresa
+            de gas- Naravnagas</h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        let formulario = document.getElementById("miFormulario");
+   
+
+        function validarFormulario(nombre, correo, job, cel) {
+           
+            if (nombre.trim() === '' || correo.trim() === ''|| job.trim() === '' || cel.trim() === '') {
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        formulario.addEventListener("submit", function (event) {
+            
+            event.preventDefault(); 
+
+            const nombre = document.getElementById("nombre").value;
+            const correo = document.getElementById("correo").value;
+            const job = document.getElementById("job").value;
+            const cel = document.getElementById("cel").value;
+
+            if (validarFormulario(nombre, correo) == true) {
+
+                console.log("Formulario enviado, sin recargar la pagina");
+
+                
+                console.log("Nombre: " + nombre);
+                console.log("Correo: " + correo);
+                console.log("Correo: " + job);
+                console.log("Correo: " + cel);
+
+            } else {
+                console.log("Formulario es invalido, complete los campos");
+            }
+        });
+
+    //const formulario = document.querySelector('#formulario');
+    //const buttonSubmit = document.querySelector('#submit');
+    //const urlDesktop = 'https://api.whatsapp.com/send?phone=59179796329&text=hola';
+    //const urlMobile = 'whatsapp://';
+    //const telefono = '59179796329';
+
+   // formulario.addEventListener('submit', (event) => {
+     //   event.preventDefault()
+       // buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>'
+        //buttonSubmit.disabled = true
+        //setTimeout(() => {
+
+          //  let nombre = document.getElementById("nombre").value;
+            //let correo = document.getElementById("correo").value;
+            //let job = document.getElementById("job").value;
+            //let cel = document.getElementById("cel").value;
+            //let mensaje = 'https://api.whatsapp.com/send?phone=59179796329&text=hola'
+            //if (isMobile()) {
+              //  window.open(urlMobile + mensaje, '_blank')
+            //} else {
+              //  window.open(urlDesktop + mensaje, '_blank')
+            //}
+            //buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
+            //buttonSubmit.disabled = false
+        //}, 3000);
+    //});
+    </script>
+</body>
+
+</html>
